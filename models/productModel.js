@@ -28,6 +28,22 @@ const productSchema = mongoose.Schema([
 ]);
 
 const Products = mongoose.model("produc", productSchema);
-module.exports = Products;
 
-Products.insertMany(productsData);
+// Products.insertMany(productsData);
+
+const insertProductsData = async () => {
+  try {
+    const existingData = await Products.findOne({});
+    if (!existingData) {
+      await Products.insertMany(productsData);
+      console.log("Data inserted successfully.");
+    } else {
+      console.log("Data already exists.");
+    }
+  } catch (error) {
+    console.error("Error inserting data:", error);
+  }
+};
+insertProductsData();
+
+module.exports = Products;
