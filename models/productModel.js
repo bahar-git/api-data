@@ -27,7 +27,7 @@ const productSchema = mongoose.Schema([
   },
 ]);
 
-const Products = mongoose.model("prod", productSchema);
+const Products = mongoose.model("produc", productSchema);
 module.exports = Products;
 
 Products.insertMany(productsData);
