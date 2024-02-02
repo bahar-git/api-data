@@ -26,6 +26,8 @@ app.use(errorMiddleware);
   next();
 }); */
 
+mongoose.set("strictQuery", false);
+
 // --------- connect to MongoDB --------------
 
 mongoose
