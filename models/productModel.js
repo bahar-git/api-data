@@ -3,6 +3,7 @@ const productsData = require("./data");
 
 const productSchema = mongoose.Schema([
   {
+    _id: Number,
     category: {
       type: String,
       required: [true, "Please enter a category"],
