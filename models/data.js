@@ -131,7 +131,7 @@ const productsData = [
   {
     category: "salad",
     price: 15.5,
-    strMeal: "Beef Banh Mi Bowls with Sriracha Mayo, Carrot & Pickled Cucumber",
+    strMeal: "Beef Banh Mi Bowls with Sriracha",
     imgMeal:
       "https://www.themealdb.com/images/media/meals/z0ageb1583189517.jpg",
     idMeal: "52997",
@@ -686,7 +686,7 @@ const productsData = [
   {
     category: "burger",
     price: 17.0,
-    strMeal: "Portuguese prego with green piri-piri",
+    strMeal: "Portuguese prego with greens",
     imgMeal:
       "https://www.themealdb.com/images/media/meals/ewcikl1614348364.jpg",
     idMeal: "53042",
