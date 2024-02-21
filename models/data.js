@@ -1121,6 +1121,238 @@ const productsData = [
       "Raspberries",
     ],
   },
+
+  {
+    category: "drink",
+    type: "tea/coffee",
+    price: 6,
+    strMeal: "Kurant Tea",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/xrsrpr1441247464.jpg",
+    idMeal: "14456",
+    ingredients: ["Water", "Green Tea", "Sugar"],
+  },
+  {
+    category: "drink",
+    type: "tea/coffee",
+    price: 6,
+    strMeal: "Masala Chai",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/uyrpww1441246384.jpg",
+    idMeal: "12774",
+    ingredients: [
+      "Water",
+      "Tea",
+      "Ginger",
+      "Cardamom",
+      "Cloves",
+      "Cinnamon",
+      "Black pepper",
+      "Sugar",
+      "Milk",
+    ],
+  },
+  {
+    category: "drink",
+    type: "tea/coffee",
+    price: 6,
+    strMeal: "Jamaican Coffee",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/xqptps1441247257.jpg",
+    idMeal: "15825",
+    ingredients: ["Jamaican Coffee", "Water", "Whipped cream"],
+  },
+  {
+    category: "drink",
+    type: "tea/coffee",
+    price: 6,
+    strMeal: "Irish Coffee",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/sywsqw1439906999.jpg",
+    idMeal: "13971",
+    ingredients: ["Irish Coffee", "Water", "Whipped cream"],
+  },
+  {
+    category: "drink",
+    type: "tea/coffee",
+    price: 6,
+    strMeal: "Mocha-Berry",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/vtwyyx1441246448.jpg",
+    idMeal: "14209",
+    ingredients: ["Coffee", "Cocoa powder", "Water", "Whepped cream"],
+  },
+  {
+    category: "drink",
+    type: "tea/coffee",
+    price: 6,
+    strMeal: "Herbal flame",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/rrstxv1441246184.jpg",
+    idMeal: "15813",
+    ingredients: ["Milk", "Cinnamon", "Sugar"],
+  },
+
+  {
+    category: "drink",
+    type: "milk shake",
+    price: 7,
+    strMeal: "Banana Shake",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/rtwwsx1472720307.jpg",
+    idMeal: "12654",
+    ingredients: ["Milk", "Banana", "Orange juice", "Sugar syrup", "Ice"],
+  },
+  {
+    category: "drink",
+    type: "milk shake",
+    price: 7,
+    strMeal: "Strawberry Shake",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/uvypss1472720581.jpg",
+    idMeal: "12658",
+    ingredients: ["Milk", "Strawberry", "Apple juice", "Sugar syrup", "Ice"],
+  },
+  {
+    category: "drink",
+    type: "milk shake",
+    price: 7,
+    strMeal: "Black Forest Shake",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/xxtxsu1472720505.jpg",
+    idMeal: "15951",
+    ingredients: ["Milk", "Bluberry", "Cherry", "Chocolate syrup", "Ice"],
+  },
+  {
+    category: "drink",
+    type: "milk shake",
+    price: 7,
+    strMeal: "Butter Baby",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/1xhjk91504783763.jpg",
+    idMeal: "17220",
+    ingredients: ["Milk", "Vanilla ice-cream", "Sugar syrup", "Ice"],
+  },
+  {
+    category: "drink",
+    type: "milk shake",
+    price: 7,
+    strMeal: "Chocolate Monkey",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/tyvpxt1468875212.jpg",
+    idMeal: "15615",
+    ingredients: [
+      "Milk",
+      "Chocolate ice-cream",
+      "Chocolate syrup",
+      "Chocolate milk",
+      "Whipped cream",
+      "Cherry",
+      "Banana",
+      "Ice",
+    ],
+  },
+
+  {
+    category: "drink",
+    type: "soft drink",
+    price: 5,
+    strMeal: "Coke",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/yrtxxp1472719367.jpg",
+    idMeal: "17108",
+    ingredients: ["Coke", "Ice"],
+  },
+  {
+    category: "drink",
+    type: "soft drink",
+    price: 5,
+    strMeal: "Orange juice",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/sxxsyq1472719303.jpg",
+    idMeal: "14482",
+    ingredients: ["Orange", "Lemon", "Water", "Sugar"],
+  },
+  {
+    category: "drink",
+    type: "soft drink",
+    price: 5,
+    strMeal: "Strawberry juice",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/ft8ed01485620930.jpg",
+    idMeal: "15691",
+    ingredients: ["Strawberry", "Water", "Sugar"],
+  },
+
+  {
+    category: "drink",
+    type: "coctail",
+    price: 8,
+    strMeal: "Absolutely Fabulous",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/abcpwr1504817734.jpg",
+    idMeal: "17224",
+    ingredients: ["Vodka", "Cranberry juice", "Champagne"],
+  },
+  {
+    category: "drink",
+    type: "coctail",
+    price: 8,
+    strMeal: "Absolut Summertime",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/trpxxs1472669662.jpg",
+    idMeal: "14107",
+    ingredients: [
+      "Absolut Citron",
+      "Sweet and sour",
+      "Sprite",
+      "Soda water",
+      "Lemon",
+    ],
+  },
+  {
+    category: "drink",
+    type: "coctail",
+    price: 8,
+    strMeal: "Blueberry Mojito",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/07iep51598719977.jpg",
+    idMeal: "178336",
+    ingredients: [
+      "Dark Rum",
+      "Lime Juice",
+      "Sugar",
+      "Blueberries",
+      "Lemon-lime soda",
+    ],
+  },
+  {
+    category: "drink",
+    type: "coctail",
+    price: 8,
+    strMeal: "Boulevardier",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/km84qi1513705868.jpg",
+    idMeal: "17251",
+    ingredients: ["Campari", "Sweet Vermouth", "Rye whiskey", "Orange Peel"],
+  },
+  {
+    category: "drink",
+    type: "coctail",
+    price: 8,
+    strMeal: "Figgy Thyme",
+    imgMeal:
+      "https://www.thecocktaildb.com/images/media/drink/pbw4e51606766578.jpg",
+    idMeal: "178344",
+    ingredients: [
+      "Vodka",
+      "Honey",
+      "Figs",
+      "Thyme",
+      "Angostura Bitters",
+      "Tonic Water",
+    ],
+  },
 ];
 
 module.exports = productsData;
