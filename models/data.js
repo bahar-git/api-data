@@ -1124,7 +1124,7 @@ const productsData = [
 
   {
     category: "drink",
-    type: "tea/coffee",
+    strType: "tea/coffee",
     price: 6,
     strMeal: "Kurant Tea",
     imgMeal:
@@ -1134,7 +1134,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "tea/coffee",
+    strType: "tea/coffee",
     price: 6,
     strMeal: "Masala Chai",
     imgMeal:
@@ -1154,7 +1154,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "tea/coffee",
+    strType: "tea/coffee",
     price: 6,
     strMeal: "Jamaican Coffee",
     imgMeal:
@@ -1164,7 +1164,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "tea/coffee",
+    strType: "tea/coffee",
     price: 6,
     strMeal: "Irish Coffee",
     imgMeal:
@@ -1174,7 +1174,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "tea/coffee",
+    strType: "tea/coffee",
     price: 6,
     strMeal: "Mocha-Berry",
     imgMeal:
@@ -1184,7 +1184,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "tea/coffee",
+    strType: "tea/coffee",
     price: 6,
     strMeal: "Herbal flame",
     imgMeal:
@@ -1195,7 +1195,7 @@ const productsData = [
 
   {
     category: "drink",
-    type: "milk shake",
+    strType: "milk shake",
     price: 7,
     strMeal: "Banana Shake",
     imgMeal:
@@ -1205,7 +1205,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "milk shake",
+    strType: "milk shake",
     price: 7,
     strMeal: "Strawberry Shake",
     imgMeal:
@@ -1215,7 +1215,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "milk shake",
+    strType: "milk shake",
     price: 7,
     strMeal: "Black Forest Shake",
     imgMeal:
@@ -1225,7 +1225,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "milk shake",
+    strType: "milk shake",
     price: 7,
     strMeal: "Butter Baby",
     imgMeal:
@@ -1235,7 +1235,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "milk shake",
+    strType: "milk shake",
     price: 7,
     strMeal: "Chocolate Monkey",
     imgMeal:
@@ -1255,7 +1255,7 @@ const productsData = [
 
   {
     category: "drink",
-    type: "soft drink",
+    strType: "soft drink",
     price: 5,
     strMeal: "Coke",
     imgMeal:
@@ -1265,7 +1265,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "soft drink",
+    strType: "soft drink",
     price: 5,
     strMeal: "Orange juice",
     imgMeal:
@@ -1275,7 +1275,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "soft drink",
+    strType: "soft drink",
     price: 5,
     strMeal: "Strawberry juice",
     imgMeal:
@@ -1286,7 +1286,7 @@ const productsData = [
 
   {
     category: "drink",
-    type: "coctail",
+    strType: "coctail",
     price: 8,
     strMeal: "Absolutely Fabulous",
     imgMeal:
@@ -1296,7 +1296,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "coctail",
+    strType: "coctail",
     price: 8,
     strMeal: "Absolut Summertime",
     imgMeal:
@@ -1312,7 +1312,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "coctail",
+    strType: "coctail",
     price: 8,
     strMeal: "Blueberry Mojito",
     imgMeal:
@@ -1328,7 +1328,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "coctail",
+    strType: "coctail",
     price: 8,
     strMeal: "Boulevardier",
     imgMeal:
@@ -1338,7 +1338,7 @@ const productsData = [
   },
   {
     category: "drink",
-    type: "coctail",
+    strType: "coctail",
     price: 8,
     strMeal: "Figgy Thyme",
     imgMeal:
